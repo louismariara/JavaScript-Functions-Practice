@@ -1,0 +1,18 @@
+function calculate(num1,num2,operations){
+if (operations === "add"){
+    console.log(`operation: ${num1 + num2}`)
+}else if (operations==="subtract") {
+    console.log(`operation: ${num1 - num2}`)
+}
+else if (operations==="multiply") {
+    console.log(`operation: ${num1 * num2}`)
+}
+else if (operations==="divide") {
+    console.log(`operation: ${num1 / num2}`)
+}
+else {
+    console.log("enter a valid operation");
+    
+}
+}
+calculate (4,5,"divide")
